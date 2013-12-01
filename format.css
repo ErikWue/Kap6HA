@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 h1, h2, h3, p, td, th {
-	font-family:Verdana;
+	font-family:Times New Roman;
 	color:#222;
 }
 #logo {
@@ -12,7 +12,7 @@ h1, h2, h3, p, td, th {
 	color:white;
 }
 #header {
-	background-color:lightyellow;
+	background-color:#FFFFE0;
 	border-radius:10px;
 	width:90%;
 	margin:20px auto;
@@ -38,11 +38,11 @@ td {
 	color: inherit;
 	font-weight:inherit;
 }
-th:nth-child(1), td:nth-child(1) {
+th:first-child, td:first-child {
 	text-align:left;
 	width:25%
 }
-th:nth-child(2), td:nth-child(2) {
+th:first-child + th, td:first-child + th {
 	text-align:left;
 	width:55%
 }
@@ -62,6 +62,6 @@ tr:nth-child(even) {
 	background-color: #ddd;
 	}
 tbody tr:hover {
-	color: orange;
+	color: #FFA500;
 	font-weight:bold;
 }
