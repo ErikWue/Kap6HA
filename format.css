@@ -1,5 +1,67 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 
-body {
-	color:red;
+h1, h2, h3, p, td, th {
+	font-family:Tahoma;
+	color:#222;
+}
+#logo {
+	font-size:40px;
+	border-radius:100%;
+	padding:10px;
+	background-color:red;
+	color:white;
+}
+#header {
+	background-color:lightyellow;
+	border-radius:10px;
+	width:90%;
+	margin:20px auto;
+	padding:10px;
+}
+#tabelle {
+	background-color:#fbfbfb;
+	border-radius:10px;
+	width:91%;
+	margin:20px auto;
+	padding-top:30px;
+	}
+table {
+	border-collapse:collapse;
+	font-size:15px;
+	width:100%
+}
+th {
+	padding:10px;
+}
+td {
+	padding:10px;
+	color: inherit;
+	font-weigth:inherit;
+}
+th:nth-child(1), td:nth-child(1) {
+	text-align:left;
+	width:25%
+}
+th:nth-child(2), td:nth-child(2) {
+	text-align:left;
+	width:55%
+}
+
+th:nth-child(3), td:nth-child(3) {
+	text-align:center;
+	width:10%
+}
+th:nth-child(4), td:nth-child(4) {
+	text-align:center;
+	width:10%
+}
+thead tr {
+	background-color: #ddd;
+}
+tr:nth-child(even) {
+	background-color: #ddd;
+	}
+tbody tr:hover {
+	color: orange;
+	font-weight:bold;
 }
