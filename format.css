@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 h1, h2, h3, p, td, th {
-	font-family:Tahoma;
+	font-family:Verdana;
 	color:#222;
 }
 #logo {
@@ -36,7 +36,7 @@ th {
 td {
 	padding:10px;
 	color: inherit;
-	font-weigth:inherit;
+	font-weight:inherit;
 }
 th:nth-child(1), td:nth-child(1) {
 	text-align:left;
